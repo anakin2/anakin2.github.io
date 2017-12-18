@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Copy of 台中捷運烏日文心北屯線</name>
+    <name>台中捷運烏日文心北屯線</name>
     <description/>
     <Style id="icon-22-normal">
       <IconStyle>
@@ -287,13 +287,8 @@
       </Placemark>
       <Placemark>
         <name>西屯車站（G8a）</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/zLesTkWhn-ZA1QewV7N2LDfJN_RcFW5hMVmj46ZQICnI3e9NZfcy2CoGd-0SLXhrGsHPV___36UY5zAHUegtmvkBzLXB9pO7Zo4JI6ijhh4q9r__7z_qgTVc9eNKvhGMU-WQVN0" height="200" width="auto" /><br><br>台中捷運烏日文心北屯線西屯車站]]></description>
+        <description>台中捷運烏日文心北屯線西屯車站</description>
         <styleUrl>#icon-22</styleUrl>
-        <ExtendedData>
-          <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/zLesTkWhn-ZA1QewV7N2LDfJN_RcFW5hMVmj46ZQICnI3e9NZfcy2CoGd-0SLXhrGsHPV___36UY5zAHUegtmvkBzLXB9pO7Zo4JI6ijhh4q9r__7z_qgTVc9eNKvhGMU-WQVN0</value>
-          </Data>
-        </ExtendedData>
         <Point>
           <coordinates>
             120.654173,24.167859,0
