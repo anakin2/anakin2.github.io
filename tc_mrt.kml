@@ -4,9 +4,9 @@
     <name>Untitled layer</name>
     <Style id="icon-22-normal">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+          <href>https://anakin2.github.io/station3.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -16,14 +16,14 @@
     </Style>
     <Style id="icon-22-highlight">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+          <href>https://anakin2.github.io/station3.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1.1</scale>
+        <scale>0.1</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="icon-22">
@@ -38,9 +38,9 @@
     </StyleMap>
     <Style id="icon-22-nodesc-normal">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+          <href>https://anakin2.github.io/station3.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -53,9 +53,9 @@
     </Style>
     <Style id="icon-22-nodesc-highlight">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+          <href>https://anakin2.github.io/station3.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -78,8 +78,8 @@
     </StyleMap>
     <Style id="line-0000FF-5000-nodesc-normal">
       <LineStyle>
-        <color>ffff0000</color>
-        <width>5</width>
+        <color>ff009a44</color>
+        <width>15</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -87,8 +87,8 @@
     </Style>
     <Style id="line-0000FF-5000-nodesc-highlight">
       <LineStyle>
-        <color>ffff0000</color>
-        <width>7.5</width>
+        <color>ff009a44</color>
+        <width>10</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
