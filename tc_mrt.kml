@@ -77,6 +77,82 @@
         <styleUrl>#icon-22-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-009D57-12238-nodesc-normal">
       <LineStyle>
         <color>ff579d00</color>
@@ -105,142 +181,70 @@
         <styleUrl>#line-009D57-12238-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-B7DBAB-12044-nodesc-normal">
+    <Style id="line-B7DBAB-11590-nodesc-normal">
       <LineStyle>
         <color>ffabdbb7</color>
-        <width>12.044</width>
+        <width>11.59</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-B7DBAB-12044-nodesc-highlight">
+    <Style id="line-B7DBAB-11590-nodesc-highlight">
       <LineStyle>
         <color>ffabdbb7</color>
-        <width>18.066</width>
+        <width>17.385</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-B7DBAB-12044-nodesc">
+    <StyleMap id="line-B7DBAB-11590-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-B7DBAB-12044-nodesc-normal</styleUrl>
+        <styleUrl>#line-B7DBAB-11590-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-B7DBAB-12044-nodesc-highlight</styleUrl>
+        <styleUrl>#line-B7DBAB-11590-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-B7DBAB-12238-nodesc-normal">
+    <Style id="line-B7DBAB-12819-nodesc-normal">
       <LineStyle>
         <color>ffabdbb7</color>
-        <width>12.238</width>
+        <width>12.819</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-B7DBAB-12238-nodesc-highlight">
+    <Style id="line-B7DBAB-12819-nodesc-highlight">
       <LineStyle>
         <color>ffabdbb7</color>
-        <width>18.357</width>
+        <width>19.2285</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-B7DBAB-12238-nodesc">
+    <StyleMap id="line-B7DBAB-12819-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-B7DBAB-12238-nodesc-normal</styleUrl>
+        <styleUrl>#line-B7DBAB-12819-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-B7DBAB-12238-nodesc-highlight</styleUrl>
+        <styleUrl>#line-B7DBAB-12819-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
       <name>捷運綠線</name>
-      <Placemark>
-        <name>大坑延伸線</name>
-        <styleUrl>#line-B7DBAB-12238-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            120.7316845,24.1770539,0
-            120.7310603,24.177143,0
-            120.7304092,24.1771441,0
-            120.7295838,24.1778597,0
-            120.728753,24.1786829,0
-            120.7281864,24.1791323,0
-            120.7270975,24.1798425,0
-            120.7264571,24.1802013,0
-            120.7253628,24.1807169,0
-            120.7244149,24.1811433,0
-            120.7232458,24.1815783,0
-            120.7224563,24.1818107,0
-            120.7216613,24.1819404,0
-            120.7182512,24.1822588,0
-            120.7177773,24.1823006,0
-            120.7174469,24.182346,0
-            120.7123592,24.1823461,0
-            120.7078711,24.1822421,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>軍功寮（G2）</name>
-        <description>大坑延伸線</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            120.719533,24.182306,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>彰化延伸線</name>
-        <styleUrl>#line-B7DBAB-12044-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            120.612309,24.1103493,0
-            120.602867,24.1110061,0
-            120.6005561,24.1112632,0
-            120.5982935,24.1116281,0
-            120.5943583,24.1128963,0
-            120.5935383,24.1131801,0
-            120.5926431,24.1131603,0
-            120.5875055,24.1103396,0
-            120.5817693,24.0957176,0
-            120.5786552,24.0946079,0
-            120.575509,24.0935863,0
-            120.5737723,24.0930275,0
-            120.5728027,24.0929487,0
-            120.5713007,24.0929845,0
-            120.5697624,24.0930882,0
-            120.5684978,24.0934233,0
-          </coordinates>
-        </LineString>
-      </Placemark>
       <Placemark>
         <name>北屯總站（G0）</name>
         <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.7097911,24.1922399,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>圓山新村（G1）</name>
-        <description>大坑延伸線</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            120.7317133,24.1771457,0
           </coordinates>
         </Point>
       </Placemark>
@@ -286,7 +290,7 @@
       <Placemark>
         <name>中清文心（G7）</name>
         <description>台中捷運烏日文心北屯線水湳車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-960-DB4436</styleUrl>
         <Point>
           <coordinates>
             120.671425,24.173928,0
@@ -445,12 +449,15 @@
             120.6982981,24.1727238,0
             120.6983182,24.1720594,0
             120.6983336,24.1715339,0
-            120.6982444,24.1713045,0
-            120.6980885,24.1710032,0
+            120.6982108,24.171201,0
             120.6979647,24.1707801,0
-            120.6978111,24.1706695,0
-            120.6972906,24.1706205,0
+            120.6978279,24.1705955,0
+            120.6977373,24.1705025,0
+            120.6976414,24.170467,0
+            120.6975193,24.1704829,0
+            120.6974502,24.1705076,0
             120.6968875,24.1707239,0
+            120.6966142,24.1708233,0
             120.696306,24.1708884,0
             120.6941989,24.171111,0
             120.6925194,24.1713395,0
@@ -561,39 +568,116 @@
           </coordinates>
         </LineString>
       </Placemark>
+    </Folder>
+    <Folder>
+      <name>捷運大坑延伸線</name>
       <Placemark>
-        <name>成功嶺（G17）</name>
-        <styleUrl>#icon-22-nodesc</styleUrl>
+        <name>大坑延伸線</name>
+        <styleUrl>#line-B7DBAB-11590-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            120.7078727,24.1822413,0
+            120.7122293,24.1823433,0
+            120.7174469,24.182346,0
+            120.7216441,24.1819378,0
+            120.7220516,24.181894,0
+            120.7224563,24.1818061,0
+            120.7229453,24.1816462,0
+            120.7236758,24.1814506,0
+            120.7243847,24.181162,0
+            120.7250313,24.1808804,0
+            120.7256364,24.1806004,0
+            120.7260452,24.1804142,0
+            120.7268779,24.179988,0
+            120.7282294,24.1790975,0
+            120.7287297,24.1786942,0
+            120.7303591,24.1771627,0
+            120.7310603,24.177143,0
+            120.7316845,24.1770539,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>軍功寮（G2）</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
-            120.6006776,24.1111385,0
+            120.7195115,24.1823135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>圓山新村（G1）</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.731678,24.1771359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>捷運彰化延伸線</name>
+      <Placemark>
+        <name>彰化延伸線</name>
+        <styleUrl>#line-B7DBAB-12819-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            120.6122969,24.1103542,0
+            120.6107012,24.1105085,0
+            120.6056386,24.1108344,0
+            120.6006994,24.1112582,0
+            120.5982814,24.111633,0
+            120.5935262,24.113185,0
+            120.592631,24.1131652,0
+            120.5874934,24.1103445,0
+            120.5832305,24.0994172,0
+            120.5817572,24.0957225,0
+            120.5786431,24.0946128,0
+            120.5760401,24.0937433,0
+            120.5737602,24.0930324,0
+            120.5727906,24.0929536,0
+            120.5712886,24.0929894,0
+            120.5697503,24.0930931,0
+            120.5684857,24.0934282,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>成功嶺（G17）</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.6006896,24.1112058,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>榮泉健行（G18）</name>
-        <styleUrl>#icon-22-nodesc</styleUrl>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
-            120.5935644,24.1132341,0
+            120.5935228,24.1133455,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>金馬彰興（G19）</name>
-        <styleUrl>#icon-22-nodesc</styleUrl>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
-            120.5817693,24.0957176,0
+            120.5815414,24.0957384,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>苦苓腳（G26）</name>
-        <styleUrl>#icon-22-nodesc</styleUrl>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
-            120.5684978,24.0934233,0
+            120.5684857,24.0934282,0
           </coordinates>
         </Point>
       </Placemark>
