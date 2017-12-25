@@ -3,40 +3,6 @@
   <Document>
     <name>台中捷運烏日文心北屯線</name>
     <description/>
-    <Style id="icon-22-normal">
-      <IconStyle>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-22-highlight">
-      <IconStyle>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-22">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-22-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-22-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-22-nodesc-normal">
       <IconStyle>
         <scale>1.1</scale>
@@ -119,7 +85,7 @@
         <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-960-DB4436-normal">
+    <Style id="icon-960-DB4436-nodesc-normal">
       <IconStyle>
         <color>ff3644db</color>
         <scale>1.1</scale>
@@ -130,8 +96,11 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
     </Style>
-    <Style id="icon-960-DB4436-highlight">
+    <Style id="icon-960-DB4436-nodesc-highlight">
       <IconStyle>
         <color>ff3644db</color>
         <scale>1.1</scale>
@@ -142,15 +111,18 @@
       <LabelStyle>
         <scale>1.1</scale>
       </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-960-DB4436">
+    <StyleMap id="icon-960-DB4436-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-960-DB4436-normal</styleUrl>
+        <styleUrl>#icon-960-DB4436-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-960-DB4436-highlight</styleUrl>
+        <styleUrl>#icon-960-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-009D57-12238-nodesc-normal">
@@ -250,8 +222,7 @@
       </Placemark>
       <Placemark>
         <name>交通大樓（G3）</name>
-        <description>台中捷運烏日文心北屯線舊社車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.7090779,24.1824411,0
@@ -260,8 +231,7 @@
       </Placemark>
       <Placemark>
         <name>松竹火車站（G4）</name>
-        <description>台中捷運烏日文心北屯線松竹車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.701251,24.179996,0
@@ -279,8 +249,7 @@
       </Placemark>
       <Placemark>
         <name>崇德文心（G6）</name>
-        <description>台中捷運烏日文心北屯線二分埔車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.685415,24.172166,0
@@ -288,19 +257,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>中清文心（G7）</name>
-        <description>台中捷運烏日文心北屯線水湳車站</description>
-        <styleUrl>#icon-960-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            120.671425,24.173928,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>文華高中（G8）</name>
-        <description>台中捷運烏日文心北屯線文華高中車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.661211,24.171735,0
@@ -309,8 +267,7 @@
       </Placemark>
       <Placemark>
         <name>櫻花文心（G8a）</name>
-        <description>台中捷運烏日文心北屯線西屯車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.654173,24.167859,0
@@ -319,8 +276,7 @@
       </Placemark>
       <Placemark>
         <name>台中市政府（G9）</name>
-        <description>台中捷運烏日文心北屯線市政中心車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.649753,24.162887,0
@@ -329,8 +285,7 @@
       </Placemark>
       <Placemark>
         <name>水安公園（G10）</name>
-        <description>台中捷運烏日文心北屯線溝子漧車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.646706,24.153646,0
@@ -339,8 +294,7 @@
       </Placemark>
       <Placemark>
         <name>文心森林公園（G10a）</name>
-        <description>台中捷運烏日文心北屯線圓滿劇場車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.646577,24.14597,0
@@ -349,28 +303,16 @@
       </Placemark>
       <Placemark>
         <name>五權西文心（G11）</name>
-        <description>台中捷運烏日文心北屯線南屯車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
-            120.646448,24.139783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>豐樂公園（G12）</name>
-        <description>台中捷運烏日文心北屯線麻茲埔車站</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            120.646276,24.132107,0
+            120.6467216,24.1402236,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>大慶火車站（G13）</name>
-        <description>台中捷運烏日文心北屯線大慶車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.647564,24.119025,0
@@ -379,18 +321,16 @@
       </Placemark>
       <Placemark>
         <name>九張犁（G14）</name>
-        <description>台中捷運烏日文心北屯線環保局車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
-            120.641599,24.1155,0
+            120.6408802,24.115216,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>九德（G15）</name>
-        <description>台中捷運烏日文心北屯線九張犁車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.6345495,24.1112693,0
@@ -399,8 +339,7 @@
       </Placemark>
       <Placemark>
         <name>烏日（G16）</name>
-        <description>台中捷運烏日文心北屯線烏日車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.622072,24.109193,0
@@ -409,8 +348,7 @@
       </Placemark>
       <Placemark>
         <name>台中高鐵站（G17）</name>
-        <description>台中捷運烏日文心北屯線高鐵台中站車站</description>
-        <styleUrl>#icon-22</styleUrl>
+        <styleUrl>#icon-22-nodesc</styleUrl>
         <Point>
           <coordinates>
             120.613403,24.110251,0
@@ -567,6 +505,24 @@
             120.612309,24.1103493,0
           </coordinates>
         </LineString>
+      </Placemark>
+      <Placemark>
+        <name>中清文心（G7）</name>
+        <styleUrl>#icon-960-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.671425,24.173928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>豐樂公園（G12）</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            120.646441,24.1321988,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Folder>
     <Folder>
